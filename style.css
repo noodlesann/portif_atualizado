@@ -1,3 +1,8 @@
+html, body {
+    overflow-x: hidden; /* Isso vai evitar a rolagem horizontal */
+    margin: 0; /* Remove as margens padrão do navegador */
+    padding: 0; /* Remove os preenchimentos padrões */}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #ffffff;
@@ -7,7 +12,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
 }
 
 
@@ -16,6 +21,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    margin: 10px;
 }
 
 header img {
@@ -47,7 +54,7 @@ header {
 .wmp-player {
     width: 940px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     background: linear-gradient(to bottom, #1e3c72, #2a5298);
     border: 4px ridge #89a;
     border-radius: 10px;
@@ -57,6 +64,13 @@ header {
     box-shadow: 0 0 20px #0006;
     text-align: center;
 }
+
+.icone-musica {
+    width: 20px;       /* ou o tamanho desejado */
+    height: auto;
+    vertical-align: middle;
+    margin: 0 8px;     /* espaço entre ícone e texto */
+  }
 
 .wmp-screen {
     background-color: #000;
@@ -81,6 +95,7 @@ header {
 .wmp-controls button:hover {
     background-color: #5a9df2;
 }
+
 
 main {
     display: flex;
@@ -188,10 +203,7 @@ main ul li a button:active {
     transform: scale(0.9);
 }
 
-
-
-
-
+/* 
 .meio-container {
     display: fixed;
     justify-content: center;
@@ -200,7 +212,7 @@ main ul li a button:active {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-}
+} */
 
 .fundo-transparente {
     position: absolute;

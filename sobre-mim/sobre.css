@@ -5,6 +5,8 @@ body {
     background-color: #0006b0;
     padding: 20px;
     border: 4px groove #ff69b4;
+    border-radius: 12px;
+    margin: 80px;
     color: rgb(245, 84, 156);
     font-family: 'Roboto', 'sans-serif';
     
@@ -34,13 +36,12 @@ body {
 
 .caixa-3d {
   border: 3px outset #9999ff; /* Cria um efeito 3D "botão levantado" */
-  background-color: rgb(0, 0, 0); /* Cor azul clara estilo Windows */
+  background-color: rgb(208, 213, 248); /* Cor azul clara estilo Windows */
   padding: 20px;
   box-shadow: inset -2px -2px 0 #ffffff, inset 2px 2px 0 #3333cc; /* Cria sombras internas */
-  margin: 20px auto;
+  margin: 10px auto;
   width: 80%;
   font-family: 'Verdana', sans-serif;
-  color: #ff00ff;
 }
 
 
@@ -90,3 +91,10 @@ aside .esquerda img {
     height: 200px;
     width: 150px;
 } */
+
+.text-end {
+  color: #ff00cc;
+  text-shadow: 2px 2px #bef14b;
+  text-align: center;
+
+}
