@@ -1,0 +1,92 @@
+body {
+    margin: 50px;
+    background-image: url('../imagens/fundo-glitter.gif');
+    background-repeat: repeat;
+    background-color: #0006b0;
+    padding: 20px;
+    border: 4px groove #ff69b4;
+    color: rgb(245, 84, 156);
+    font-family: 'Roboto', 'sans-serif';
+    
+    
+}
+.titulo-sobre {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 24px;
+  color: #ff00cc;
+  text-align: center;
+  text-shadow: 2px 2px #bef14b;
+  border-bottom: 2px dashed #ff69b4;
+  margin-bottom: 15px;
+  
+}
+
+.texto-sobre {
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+  color: #000080;
+  background-color: #f3e6ff;
+  padding: 15px;
+  border: 2px inset #cc99ff;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.caixa-3d {
+  border: 3px outset #9999ff; /* Cria um efeito 3D "botão levantado" */
+  background-color: rgb(0, 0, 0); /* Cor azul clara estilo Windows */
+  padding: 20px;
+  box-shadow: inset -2px -2px 0 #ffffff, inset 2px 2px 0 #3333cc; /* Cria sombras internas */
+  margin: 20px auto;
+  width: 80%;
+  font-family: 'Verdana', sans-serif;
+  color: #ff00ff;
+}
+
+
+.logo-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    border: 3px ridge #ff00ff; /* Borda com efeito 3D */
+    background: linear-gradient(to bottom right, #ffccff, #cc99ff); /* Degradê rosa/lilás */
+    padding: 5px;
+    box-shadow: 3px 3px 0 #0000ff, -1px -1px 0 #00ffff; /* sombra dupla estilo anos 2000 */
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .logo-img {
+    width: 50px;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 0 5px #ff00ff); /* Brilho rosa */
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .logo-link:hover .logo-img {
+    transform: scale(1.1) rotate(-5deg);
+  }  
+
+main {
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+section {
+
+    text-align: left;
+    padding-left: 5px;
+    ;
+}
+aside .esquerda img {
+    height: 200px;
+    width: 150px;
+}
+
+/* aside .direita img {
+    height: 200px;
+    width: 150px;
+} */
