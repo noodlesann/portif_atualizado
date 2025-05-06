@@ -1,11 +1,11 @@
 body {
     margin: 50px;
-    background-image: url('../imagens/fundo-glitter.gif');
+    background-image: url('https://www.transparenttextures.com/patterns/graphy.png');
     background-repeat: repeat;
-    background-color: #0006b0;
+    background-color: #f0f8ff;
     padding: 20px;
-    border: 4px groove #ff69b4;
-    border-radius: 12px;
+    border: 4px double #000080;
+    border-radius: 5px;
     margin: 80px;
     color: rgb(245, 84, 156);
     font-family: 'Roboto', 'sans-serif';
@@ -36,7 +36,7 @@ body {
 
 .caixa-3d {
   border: 3px outset #9999ff; /* Cria um efeito 3D "botão levantado" */
-  background-color: rgb(208, 213, 248); /* Cor azul clara estilo Windows */
+  background-color: #000080; /* Cor azul clara estilo Windows */
   padding: 20px;
   box-shadow: inset -2px -2px 0 #ffffff, inset 2px 2px 0 #3333cc; /* Cria sombras internas */
   margin: 10px auto;
@@ -87,10 +87,10 @@ aside .esquerda img {
     width: 150px;
 }
 
-/* aside .direita img {
+aside .direita img {
     height: 200px;
     width: 150px;
-} */
+}
 
 .text-end {
   color: #ff00cc;
