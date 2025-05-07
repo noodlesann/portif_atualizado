@@ -15,10 +15,10 @@ body {
 .titulo-sobre {
   font-family: 'Comic Sans MS', cursive;
   font-size: 24px;
-  color: #ff00cc;
+  color: #bef14b;
   text-align: center;
-  text-shadow: 2px 2px #bef14b;
-  border-bottom: 2px dashed #ff69b4;
+  text-shadow: 2px px #000000;
+  border-bottom: 2px dashed #cecece;
   margin-bottom: 15px;
   
 }
@@ -36,7 +36,7 @@ body {
 
 .caixa-3d {
   border: 3px outset #9999ff; /* Cria um efeito 3D "botão levantado" */
-  background-color: #000080; /* Cor azul clara estilo Windows */
+  background-color: #000076; /* Cor azul clara estilo Windows */
   padding: 20px;
   box-shadow: inset -2px -2px 0 #ffffff, inset 2px 2px 0 #3333cc; /* Cria sombras internas */
   margin: 10px auto;
@@ -93,8 +93,8 @@ aside .direita img {
 }
 
 .text-end {
-  color: #ff00cc;
-  text-shadow: 2px 2px #bef14b;
+  color: #bef14b;
+  text-shadow: 2px 3px #000000;
   text-align: center;
 
 }

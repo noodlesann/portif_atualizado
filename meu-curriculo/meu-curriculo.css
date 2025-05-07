@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #f4fff8;
     color: #000080;
     font-family: Tahoma, Verdana, sans-serif;
     margin: 80px;
@@ -12,22 +12,22 @@ body {
 
 header h1 {
     font-family: 'Comic Sans MS', cursive;
-    color: #ff1493;
+    color: #000076;
     text-align: center;
-    text-shadow: 2px 2px #ffd700;
+    text-shadow: 2px 2px #bef14b;
 }
 
 section {
     margin-bottom: 30px;
     padding: 10px;
-    border: 2px dotted #8a2be2;
+    border: 2px dotted #000000;
     background-color: #ffffffcc;
 }
 
 h3 {
-    color: #ff4500;
+    color: #000076;
     font-size: 20px;
-    background-color: #e0ffff;
+    background-color: #f6ffe0;
     padding: 5px;
     border-bottom: 1px solid #000080;
 }
